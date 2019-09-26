@@ -1,0 +1,14 @@
+#  default.custom.yaml
+patch:
+  menu/page_size: 5  #设置候选字数量，根据喜好调整。
+  schema_list:
+    - schema: luna_pinyin_simp
+    - schema: luna_pinyin
+  us_keyboard_layout: true
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_code
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop

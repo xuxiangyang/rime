@@ -1,0 +1,7 @@
+luna_pinyin.userdb/*
+/luna_pinyin.userdb/*
+*.bin
+chinese_contain_english.userdb/
+build/
+sync/
+trash/
